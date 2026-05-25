@@ -1,0 +1,26 @@
+Markdown
+# Multi-OS Enterprise Homelab Architecture
+
+## 📋 Descrição do Projeto
+Este projeto consiste na criação, configuração e documentação de um laboratório virtual multiplataforma 
+utilizando o **Oracle VirtualBox**.
+O objetivo é simular um ambiente empresarial realista,
+integrando três sistemas operativos principais (Linux, Windows e macOS), configurados numa rede virtual segura.
+
+## 🛠️ Tecnologias Utilizadas
+* **Hypervisor:** Oracle VirtualBox (v7.x)
+* **Sistemas Operativos:**
+  * Linux (Ex: Ubuntu Server / Kali Linux)
+  * Windows (Ex: Windows 10/11 Pro ou Windows Server)
+  * macOS (Ex: Monterey / Sonoma)
+* **Redes:** NAT Network / Host-Only para comunicação inter-VM.
+
+## 📐 Arquitetura da Rede Virtual
+*Ligação entre VMs, partilhando a mesma gama de IPs*
+
+## 🚀 Progresso do Laboratório
+- [ ] **Fase 1:** Configuração da Rede Global no VirtualBox
+- [ ] **Fase 2:** Deployment e Hardening do Linux VM
+- [ ] **Fase 3:** Deployment do Windows VM e Otimização
+- [ ] **Fase 4:** Integração do macOS (Ambiente Apple)
+- [ ] **Fase 5:** Testes de Conetividade (Ping, SSH, RDP)
