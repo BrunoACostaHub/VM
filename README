@@ -29,6 +29,6 @@ integrando três sistemas operativos principais (Linux, Windows e macOS), config
 
 * **Atualização do Hypervisor (Clean Install):** Inicialmente, o ambiente contava com uma versão *legacy* (antiga) do VirtualBox que apresentou instabilidade a inicializar. 
 Para garantir o suporte às funcionalidades (especialmente para a futura VM de macOS), 
-foi realizada uma desinstalação completa seguida de uma instalação limpa do **VirtualBox 7.x**
+foi realizada uma desinstalação completa seguida de uma instalação limpa do **VirtualBox 7.x** img/virtualbox7-interface.png
 * **Primeiro Marco Técnico:** Com a nova interface, o primeiro passo foi garantir que antes do lançar qualquer sistema operativo, 
 que todas as máquinas virtuais residissem no mesmo segmento de rede (Single Network Segment) para permitir comunicação entre as VM.
