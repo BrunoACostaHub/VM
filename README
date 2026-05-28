@@ -24,3 +24,8 @@ integrando três sistemas operativos principais (Linux, Windows e macOS), config
 - [ ] **Fase 3:** Deployment do Windows VM e Otimização
 - [ ] **Fase 4:** Integração do macOS (Ambiente Apple)
 - [ ] **Fase 5:** Testes de Conetividade (Ping, SSH, RDP)
+
+### 🔧 Notas de Implementação & Troubleshooting
+
+* **Atualização do Hypervisor (Clean Install):** Inicialmente, o ambiente contava com uma versão *legacy* (antiga) do VirtualBox que apresentou instabilidade na inicialização. Para garantir o suporte às funcionalidades modernas e estabilidade do laboratório (especialmente para a futura VM de macOS), foi realizada uma desinstalação completa seguida de uma instalação limpa do **VirtualBox 7.x**.
+* **Primeiro Marco Técnico:** Com a nova interface validada, o primeiro passo crítico da infraestrutura foi o provisionamento da rede virtualizada (`LabEnterpriseNet`). O objetivo estratégico foi garantir, antes do deployment de qualquer sistema operativo, que todas as máquinas virtuais residissem no mesmo segmento de rede (Single Network Segment) para permitir comunicação inter-VM nativa.
